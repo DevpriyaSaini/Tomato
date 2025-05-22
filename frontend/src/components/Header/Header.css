@@ -1,7 +1,7 @@
 .header {
   height: 34vw;
   margin: 30px auto;
-  background: url('https://mir-s3-cdn-cf.behance.net/projects/404/4936d0151430529.Y3JvcCw1NjAwLDQzODAsMCw2MDk.png') no-repeat center center;
+  background: url('https://sdmntprwestus2.oaiusercontent.com/files/00000000-b2b8-61f8-9f05-787be9d9ba03/raw?se=2025-05-22T08%3A54%3A21Z&sp=r&sv=2024-08-04&sr=b&scid=b8d149c3-4632-566f-b415-6bce4395b3a4&skoid=30ec2761-8f41-44db-b282-7a0f8809659b&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-21T20%3A40%3A20Z&ske=2025-05-22T20%3A40%3A20Z&sks=b&skv=2024-08-04&sig=DDidPQ%2BPUWim8Zk19EULZ53YwY0EBwjAknABzDzdu28%3D') no-repeat center ;
   background-size: cover;
   position: relative;
   width: 85%;
@@ -28,7 +28,7 @@
 
 }
 .header-cont p{
-    color: green;
+    color: white;
     font-size: 1vw;
 }
 .header-cont button{
