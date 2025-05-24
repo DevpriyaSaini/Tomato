@@ -8,6 +8,7 @@
   min-height: 100vh;
   box-sizing: border-box;
   margin: 0 30%;
+  width: 100%;
 }
 
 form {
@@ -24,6 +25,7 @@ form {
   display: flex;
   flex-direction: column;
   margin-bottom: 1.5rem;
+  width: 100%;
 }
 
 .image-upload {
@@ -33,7 +35,7 @@ form {
 
 .image-upload img {
   width: 150px;
-  height: 100px;
+  height: 70px;
   object-fit: contain;
   margin-bottom: 0.5rem;
   cursor: pointer;

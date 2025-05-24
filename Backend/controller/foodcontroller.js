@@ -2,15 +2,16 @@ import foodmodel from "../models/food.js";
 import fs from 'fs';
 
 async function addfood(req,res){
+
+  console.log(req.File);
   let Image_filename=`${req.file.filename}`;
   const food=new foodmodel({
     name:req.body.name,
     description:req.body.description,
     Price:req.body.Price,
     category:req.body.category,
-    Image:Image_filename,
+    image:Image_filename,
   })
-  console.log(food);
 
   try {
     await food.save();
@@ -47,7 +48,7 @@ async function  delfood(req,res) {
 
  try {
   const food=await foodmodel.findById(req.body.id);
-   fs.unlink(`uploads/${food.Image}`,()=>{});
+   fs.unlink(`uploads/${food.image}`,()=>{});
 
   await foodmodel.findByIdAndDelete(req.body.id);
   res.json({sucess:true,msg:"food remove"});

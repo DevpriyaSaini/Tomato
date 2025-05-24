@@ -11,11 +11,11 @@ function Sidebar() {
                 <p>Add Items</p>
             </NavLink>
             <NavLink to='/List' className="sidebar-options">
-                <img src="https://imgs.search.brave.com/obEzgoYoghMoF5N7BAzaVDhwD2tKgnXOpnx-V30eaw8/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWdz/LnNlYXJjaC5icmF2/ZS5jb20vRkt6U2x4/eXVROXdZZkJjUWZO/OHZPVGJMRnpUTlBI/RzZKNGlabUR5QjdW/Zy9yczpmaXQ6NTAw/OjA6MDowL2c6Y2Uv/YUhSMGNITTZMeTkx/ZUhkcC9ibWN1WTI5/dEwzZHdMV052L2Ju/UmxiblF2ZEdobGJX/VnovTDNWNGQybHVa/eTlrYjNkdS9iRzlo/WkM5bExXTnZiVzFs/L2NtTmxMV04xY25K/bGJtTjUvTFhOb2Iz/QndhVzVuTDJGay9a/QzFwZEdWdExXbHVM/V05oL2NuUXRZMjlz/YjNJdGFXTnYvYmk1/emRtYw.jpeg" alt="" />
+                <img src="https://imgs.search.brave.com/2CY4bEMVCBOJ5ZO6cZIMM4eHri6XfNUBfKvr1LjmSCE/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWdz/LnNlYXJjaC5icmF2/ZS5jb20vMm1NTGRS/T1dWZzdfY05GVlBv/Ylh1X3pReHFkSThv/TTFzLU1Remczanht/by9yczpmaXQ6NTAw/OjA6MDowL2c6Y2Uv/YUhSMGNITTZMeTlq/Wkc0dC9hV052Ym5N/dGNHNW5MbVp5L1pX/VndhV3N1WTI5dEx6/STEvTmk4eE5UQXhN/aTh4TlRBeC9NamMw/TUM1d2JtY19jMlZ0/L2REMWhhWE5mYUhs/aWNtbGs.jpeg" alt="" />
                 <p>List Items</p>
              </NavLink>
              <NavLink to='/Order' className="sidebar-options">
-                <img src="https://imgs.search.brave.com/2CY4bEMVCBOJ5ZO6cZIMM4eHri6XfNUBfKvr1LjmSCE/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWdz/LnNlYXJjaC5icmF2/ZS5jb20vMm1NTGRS/T1dWZzdfY05GVlBv/Ylh1X3pReHFkSThv/TTFzLU1Remczanht/by9yczpmaXQ6NTAw/OjA6MDowL2c6Y2Uv/YUhSMGNITTZMeTlq/Wkc0dC9hV052Ym5N/dGNHNW5MbVp5L1pX/VndhV3N1WTI5dEx6/STEvTmk4eE5UQXhN/aTh4TlRBeC9NamMw/TUM1d2JtY19jMlZ0/L2REMWhhWE5mYUhs/aWNtbGs.jpeg" alt="" />
+                <img src="https://imgs.search.brave.com/obEzgoYoghMoF5N7BAzaVDhwD2tKgnXOpnx-V30eaw8/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWdz/LnNlYXJjaC5icmF2/ZS5jb20vRkt6U2x4/eXVROXdZZkJjUWZO/OHZPVGJMRnpUTlBI/RzZKNGlabUR5QjdW/Zy9yczpmaXQ6NTAw/OjA6MDowL2c6Y2Uv/YUhSMGNITTZMeTkx/ZUhkcC9ibWN1WTI5/dEwzZHdMV052L2Ju/UmxiblF2ZEdobGJX/VnovTDNWNGQybHVa/eTlrYjNkdS9iRzlo/WkM5bExXTnZiVzFs/L2NtTmxMV04xY25K/bGJtTjUvTFhOb2Iz/QndhVzVuTDJGay9a/QzFwZEdWdExXbHVM/V05oL2NuUXRZMjlz/YjNJdGFXTnYvYmk1/emRtYw.jpeg" alt="" />
                 <p>Orders</p>
              </NavLink> 
         </div>
@@ -24,3 +24,4 @@ function Sidebar() {
 }
 
 export default Sidebar
+
