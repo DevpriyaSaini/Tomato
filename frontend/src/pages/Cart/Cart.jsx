@@ -2,6 +2,7 @@ import React, { useContext } from 'react'
 import'./Cart.css'
 import { StoreContext } from '../../Context/StoreContext'
 import { Link } from 'react-router-dom';
+const url="http://localhost:4000";
 function Cart() {
   const{cartItems,food_list,removeCart,gettotal}=useContext(StoreContext)
   return (
@@ -22,11 +23,11 @@ function Cart() {
          if(cartItems[item._id]>0) {
           return (
             <div className="cart-item-title card-items-item">
-              <img src={item.image} alt="" />
+              <img src={url+"/Image/"+item.image} alt="" />
               <p>{item.name}</p>
-              <p>${item.price}</p>
+              <p>${item.Price}</p>
               <p>{cartItems[item._id]}</p>
-              <p>${item.price*cartItems[item._id]}</p>
+              <p>${item.Price*cartItems[item._id]}</p>
               <p onClick={()=>removeCart(item._id)}>x</p>
             </div>
           )

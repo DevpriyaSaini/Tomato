@@ -15,7 +15,7 @@ function FoodDisplay(category) {
                 if (category==="All"||category===item.category) {
                 
                 }
-                 return <FoodIteam key={index} id={item._id}  name={item.name}description={item.description} price={item.price}
+                 return <FoodIteam key={index} id={item._id}  name={item.name}description={item.description} Price={item.Price}
                 image={item.image}rating={item.rating_starts}
                 />   
             })}

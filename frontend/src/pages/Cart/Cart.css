@@ -368,9 +368,11 @@ hr {
     width: 30px;
     height: 30px;
   }
-  .cart-bottom,
+  
   .cart-promocode {
-    width: 100%;
+    /* width: 100%; */
+    display:flex;
+    flex-direction: column;
   }
   .cart-bottom {
     flex-direction: column;

@@ -3,6 +3,8 @@ import cors from 'cors';
 import connectdb from './config/db.js';
 import foodrouter from './routes/addfood.js';
 import bodyParser from 'body-parser';
+import userRouter from './routes/user.js';
+import 'dotenv/config';
 
 const app = express();
 const port = 4000;
@@ -17,6 +19,9 @@ app.use('/Image', express.static('uploads'));
 
 // Register food routes
 app.use('/api/food', foodrouter);
+
+//register and login user
+app.use('/api/user',userRouter);
 
 
 connectdb();

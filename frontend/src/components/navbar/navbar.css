@@ -77,8 +77,7 @@ gap: 30px;
 }
 @media(max-width:900px){
   .navbar-menue{
-    gap:15px;
-    font-size: 16px;
+    display: none;
   }
   .navbar-right{
     gap: 20px;
@@ -88,9 +87,97 @@ gap: 30px;
     font-size: 15px;
   }
 }
-@media(max-width:900px){
+@media(max-width:700px){
   .navbar-menue{
     display: none;
   }
+
+  .logo{
+    width: 100px;
+}
+.logosearch{
+    width: 30px;
+}
+.logocart{
+    width: 35px;
+}
   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Wrapper that holds both profile and dropdown */
+.nav-bar-profile {
+  /* position: fixed; */
+  display: inline-block;
+}
+
+.nav-bar-profile {
+  cursor: pointer;
+}
+
+.nav-bar-profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Dropdown stays visible while hovering anywhere in wrapper */
+.nav-bar-profile:hover .nav-bar-pro-dropdown {
+  display: flex;
+}
+
+.nav-bar-pro-dropdown {
+  position: absolute;
+  top: 60px;
+  right: 35px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  padding: 10px 0;
+  width: 160px;
+  display: none;
+  flex-direction: column;
+  z-index: 100;
+}
+
+.nav-bar-pro-dropdown li {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.nav-bar-pro-dropdown li:hover {
+  background-color: #f5f5f5;
+}
+
+.nav-bar-pro-dropdown li img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.nav-bar-pro-dropdown p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.nav-bar-pro-dropdown hr {
+  margin: 5px 0;
+  border: 0;
+  border-top: 1px solid #e0e0e0;
 }

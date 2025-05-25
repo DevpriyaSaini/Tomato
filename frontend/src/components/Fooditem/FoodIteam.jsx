@@ -3,13 +3,14 @@ import './FoodIteam.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlus, faMinus } from '@fortawesome/free-solid-svg-icons';
 import { StoreContext } from '../../Context/StoreContext';
-function FoodIteam({id,name,price,description,image ,rating}) {
+const url=" http://localhost:4000";
+function FoodIteam({id,name,Price,description,image ,rating}) {
     // const [counter, setCounter]=useState(0);
     const {cartItems,addToCart,removeCart}=useContext(StoreContext);
   return (
     <div className='Food-Iteam'>
         <div className="foot-item-con">
-            <img src={image} alt="" className="food-item-img" />
+            <img src={url+"/Image/"+image} alt="" className="food-item-img" />
            {!cartItems[id]? (
   <FontAwesomeIcon 
     icon={faPlus} 
@@ -35,10 +36,10 @@ function FoodIteam({id,name,price,description,image ,rating}) {
         <div className="fooditem-info">
             <div className="food-item-name-rating">
                 <p>{name}</p>
-            <img src={rating} alt="" />
+            <img src="https://imgs.search.brave.com/dJP5QFL_gsI86WlSSbDka7CaFUSjZ_An94Hxz-CGduM/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA1LzQwLzA2Lzky/LzM2MF9GXzU0MDA2/OTIxNl9BaXFtR1kw/bkV0OEloRmdqSW9D/RzExSVZRRzNJb29i/Sy5qcGc" alt="" />
             </div>
             <p className="food-item-desc">{description}</p>
-            <p className="food-item-price">${price}</p>
+            <p className="food-item-price">${Price}</p>
         </div>
     </div>
   )
