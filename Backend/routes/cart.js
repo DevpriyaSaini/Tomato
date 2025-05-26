@@ -11,4 +11,4 @@ cartRouter.post("/remove",authmiddle ,removefromcart);
 cartRouter.post("/get",authmiddle,getcart);
 
 
-export default cartRouter;
+export default cartRouter
